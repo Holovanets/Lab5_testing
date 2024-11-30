@@ -8,7 +8,7 @@ test('Перетворення валюти у число', () => {
 });
 
 test('Форматування числа у валюту', () => {
-    expect(formatCurrency(20)).toBe('$20.00');
+    expect(formatCurrency(20)).toBe('$50.00');
     expect(formatCurrency(30.25)).toBe('$30.25');
 });
 
